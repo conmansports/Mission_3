@@ -27,39 +27,95 @@ namespace Project_1
                 // Check for a horizontal win
                 if (GameBoard[1] == GameBoard[2] && GameBoard[2] == GameBoard[3])
                 {
-                    Console.WriteLine("You won!! Congrats");
+                    if (GameBoard[1] == 'X')
+                    {
+                        Console.WriteLine("You won!! Congrats Player 1");
+                    }
+                    else if (GameBoard[1] == 'O')
+                    {
+                        Console.WriteLine("You won!! Congrats Player 2");
+                    }
                 }
                 else if (GameBoard[4] == GameBoard[5] && GameBoard[5] == GameBoard[6])
                 {
-                    Console.WriteLine("You won!! Congrats");
+                    if (GameBoard[4] == 'X')
+                    {
+                        Console.WriteLine("You won!! Congrats Player 1");
+                    }
+                    else if (GameBoard[4] == 'O')
+                    {
+                        Console.WriteLine("You won!! Congrats Player 2");
+                    }
                 }
                 else if (GameBoard[7] == GameBoard[8] && GameBoard[8] == GameBoard[9])
                 {
-                    Console.WriteLine("You won!! Congrats")
+                    if (GameBoard[7] == 'X')
+                    {
+                        Console.WriteLine("You won!! Congrats Player 1");
+                    }
+                    else if (GameBoard[7] == 'O')
+                    {
+                        Console.WriteLine("You won!! Congrats Player 2");
+                    }
                 }
 
                 // Check for a vertical win
                 else if (GameBoard[1] == GameBoard[4] && GameBoard[4] == GameBoard[7])
                 {
-                    Console.WriteLine("You won!! Congrats");
+                    if (GameBoard[1] == 'X')
+                    {
+                        Console.WriteLine("You won!! Congrats Player 1");
+                    }
+                    else if (GameBoard[1] == 'O')
+                    {
+                        Console.WriteLine("You won!! Congrats Player 2");
+                    }
                 }
                 else if (GameBoard[2] == GameBoard[5] && GameBoard[5] == GameBoard[8])
                 {
-                    Console.WriteLine("You won!! Congrats");
+                    if (GameBoard[2] == 'X')
+                    {
+                        Console.WriteLine("You won!! Congrats Player 1");
+                    }
+                    else if (GameBoard[2] == 'O')
+                    {
+                        Console.WriteLine("You won!! Congrats Player 2");
+                    }
                 }
                 else if (GameBoard[3] == GameBoard[6] && GameBoard[6] == GameBoard[9])
                 {
-                    Console.WriteLine("You won!! Congrats")
+                    if (GameBoard[3] == 'X')
+                    {
+                        Console.WriteLine("You won!! Congrats Player 1");
+                    }
+                    else if (GameBoard[3] == 'O')
+                    {
+                        Console.WriteLine("You won!! Congrats Player 2");
+                    }
                 }
 
                 // Check for a diagnol win
                 else if (GameBoard[1] == GameBoard[5] && GameBoard[5] == GameBoard[9])
                 {
-                    Console.WriteLine("You won!! Congrats");
+                    if (GameBoard[1] == 'X')
+                    {
+                        Console.WriteLine("You won!! Congrats Player 1");
+                    }
+                    else if (GameBoard[1] == 'O')
+                    {
+                        Console.WriteLine("You won!! Congrats Player 2");
+                    }
                 }
                 else if (GameBoard[3] == GameBoard[5] && GameBoard[5] == GameBoard[7])
                 {
-                    Console.WriteLine("You won!! Congrats")
+                    if (GameBoard[3] == 'X')
+                    {
+                        Console.WriteLine("You won!! Congrats Player 1");
+                    }
+                    else if (GameBoard[3] == 'O')
+                    {
+                        Console.WriteLine("You won!! Congrats Player 2");
+                    }
                 }
 
                 // Check for a draw
