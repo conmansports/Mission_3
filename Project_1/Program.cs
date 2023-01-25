@@ -6,10 +6,13 @@ namespace Project_1
     {
         static void Main(string[] args)
         {
+            Supporting_Class sc = new Supporting_Class()
             bool gameIsGoing = true;
             int currTurn = 0;
             Console.WriteLine("Welcome to Tic-Tac-Toe!");
             char[] arrayGameBoard = { '0', '1', '2', '3', '4', '5', '6', '7', '8' };
+
+            sc.PrintBoard(arrayGameBoard)
 
             do
             {
@@ -54,14 +57,8 @@ namespace Project_1
 
     class Supporting_Class
     {
-        static void Main(string[] args)
-        {
-            static void GameBoard(Program d)
-            {
-                d.arrayGameBoard;
-            }
 
-            static void PrintBoard()
+            static void PrintBoard(string[] GameBoard)
             {
                 Console.WriteLine("     |     |     ");
                 Console.WriteLine("  {0}|  {1}|  {2}", GameBoard[0], GameBoard[1], GameBoard[2]);
@@ -184,7 +181,6 @@ namespace Project_1
                     return;
                 }
             }
-        }
-        Program();
     }
+        
 }
